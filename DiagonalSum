@@ -20,3 +20,29 @@ public class DiagonalSum {
         
     }
 }
+
+
+
+
+/*
+* Method: diagonalSum
+* This method calculates the sum of the diagonal elements in a square matrix.
+
+* Parameters:
+* m (2D array of integers): Represents the square matrix.
+* Return Type:
+* int: Represents the sum of the diagonal elements.
+* Algorithm:
+* Initialization:
+* l: Stores the length of the matrix minus 1.
+* sum: Accumulator variable initialized to 0.
+* Iterating over the Rows:
+* The for loop iterates over the rows of the matrix using the index variable i.
+* Sum Calculation:
+* For each iteration, it adds the element at position (i, i) (main diagonal) to the sum.
+* Additional Diagonal Sum:
+* If the current element is not on the main diagonal (i.e., i != m.length-1-i), it also adds the element at position (i, m.length-1-i) (opposite diagonal) to the sum.
+* Return:
+* The final sum of the diagonal elements is returned.
+
+*/
